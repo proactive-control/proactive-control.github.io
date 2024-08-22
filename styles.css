@@ -1,3 +1,15 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+* Wrapper to use flexbox layout */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -84,12 +96,14 @@ main {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin: 0 380px;
+    text-align: justify;
+    margin: 0 500px;
 }
 
 .media h2 {
     font-size: 1rem;
     margin-bottom: 10px;
+    text-align: justify;
     font-weight: normal;
 }
 
@@ -97,14 +111,16 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    text-align: center;
-    margin: 20px 40px; 
+    text-align: justify;
+    margin: 20px 10px; 
 }
 
 .photos img {
-    width: 400%;
-    max-width: 500px;
+    width: 600%;
+    max-width: 600px;
     border-radius: 10px;
+    margin: 20px 120px;
+    text-align: justify;
 }
 
 /* Footer */
