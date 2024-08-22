@@ -11,7 +11,7 @@ body {
 .header {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 }
 
@@ -21,24 +21,28 @@ body {
 }
 
 .header-content p {
-    margin: 5px 0 0;
+    margin: 5px 0;
     font-size: 1.0rem;
     font-weight: 300;
 }
 
-.github-logo {
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
-    margin-right: 8px;
-}
-.github-logo {
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
-    margin-right: 8px;
+/* GitHub Link Styling */
+.header-content a {
+    color: white; /* Change the link color to white */
+    text-decoration: none; /* Remove underline from the link */
 }
 
+.header-content a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover for emphasis */
+}
+
+.github-logo {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-top: 1px;
+}
 
 /* Hero Image Section */
 .hero-image {
@@ -72,7 +76,7 @@ main {
     font-size: 1.0rem;
     line-height: 1.8;
     text-align: justify;
-    margin: 20px 50px; /* 20px for top and bottom, 40px for left and right */
+    margin: 20px 300px; /* 20px for top and bottom, 40px for left and right */
 }
 
 /* Media Section */
@@ -80,6 +84,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin: 0 280px;
 }
 
 .media h2 {
@@ -96,7 +101,7 @@ main {
 }
 
 .photos img {
-    width: 100%;
+    width: 400%;
     max-width: 500px;
     border-radius: 10px;
 }
