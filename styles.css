@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.header-content p {
+    margin: 5px 0 0;
+    font-size: 1.0rem;
+    font-weight: 300;
+}
+
+.github-logo {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.github-logo {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+
+/* Hero Image Section */
+.hero-image {
+    text-align: center;
+    margin: 1px 0;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Description Section */
+.description {
+    margin-bottom: 40px;
+}
+
+.description h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.description p {
+    font-size: 1.0rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 20px 50px; /* 20px for top and bottom, 40px for left and right */
+}
+
+/* Media Section */
+.media {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.media h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.videos, .photos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin: 20px 40px; 
+}
+
+.photos img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
