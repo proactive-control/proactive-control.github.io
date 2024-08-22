@@ -84,12 +84,13 @@ main {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin: 0 280px;
+    margin: 0 380px;
 }
 
 .media h2 {
-    font-size: 2rem;
+    font-size: 1rem;
     margin-bottom: 10px;
+    font-weight: normal;
 }
 
 .videos, .photos {
