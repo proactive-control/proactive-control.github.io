@@ -108,6 +108,7 @@ sup {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    margin: 0% 15%;
 }
 
 /* Main Content */
@@ -131,16 +132,16 @@ main {
     font-size: 1.0rem;
     line-height: 1.8;
     text-align: justify;
-    margin: 20px 500px; /* 20px for top and bottom, 500px for left and right */
+    margin: 2% 15%; /* 20px for top and bottom, 500px for left and right */
 }
 
 /* Media Section */
 .media {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 4%;
     text-align: justify;
-    margin: 0 500px; /* Margin for left and right */
+    margin: 0 15%; /* Margin for left and right */
 }
 
 .media h2 {
@@ -153,16 +154,16 @@ main {
 .videos, .photos {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 2%;
     text-align: justify;
-    margin: 20px 10px; 
+    margin: 2% 18%; 
 }
 
 .photos img {
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
-    margin: 20px 120px;
+    margin: 2% 15%;
     text-align: justify;
 }
 
@@ -170,7 +171,7 @@ main {
     width: 400%; /* Or any other width that works for your design */
     max-width: 700px; /* Increase the max-width specifically for this image */
     border-radius: 10px;
-    margin: 20px auto; /* Centering the image horizontally */
+    margin: 2% auto; /* Centering the image horizontally */
 }
 
 
