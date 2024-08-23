@@ -29,28 +29,36 @@ body {
 
 .header-content h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 
 .header-content p {
     margin: 5px 0;
     font-size: 1.3rem;
     font-weight: 300;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
-.github-link {
-    margin-top: 200px; /* Adjust the value to control the amount of space */
+.header-content .affiliations {
+    font-size: 0.9rem;
+    margin-top: 10px;
 }
+
 
 /* GitHub Link Styling */
 .header-content a {
-    color: white; /* Change the link color to white */
+    color: #b0e0e6;
+    /*color: white;  Change the link color to white */
     text-decoration: none; /* Remove underline from the link */
 }
 
 .header-content a:hover {
     text-decoration: underline; /* Optional: Add underline on hover for emphasis */
+}
+
+sup {
+    font-size: 0.75em; /* Adjusts the size of the superscript to be smaller */
+    vertical-align: super;
 }
 
 .github-logo {
