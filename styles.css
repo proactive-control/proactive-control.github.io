@@ -23,7 +23,7 @@ body {
 .header {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 2%;
     text-align: center;
 }
 
@@ -33,15 +33,15 @@ body {
 }
 
 .header-content p {
-    margin: 5px 0;
+    margin: 0.8% 0;
     font-size: 1.3rem;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 0.8%;
 }
 
 .header-content .affiliations {
     font-size: 0.9rem;
-    margin-top: 10px;
+    margin-top: 1%;
 }
 
 
@@ -63,7 +63,7 @@ sup {
 
 .button-container {
     display: flex;
-    gap: 15px; /* Space between buttons */
+    gap: 1%; /* Space between buttons */
     justify-content: center;
 }
 
@@ -105,7 +105,7 @@ sup {
 }
 
 .hero-image img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     border-radius: 10px;
     margin: 0% 15%;
@@ -141,7 +141,7 @@ main {
     flex-direction: column;
     gap: 4%;
     text-align: justify;
-    margin: 0 20%; /* Margin for left and right */
+    margin: 0 15%; /* Margin for left and right */
 }
 
 .media h2 {
@@ -160,7 +160,7 @@ main {
 }
 
 .photos {
-    margin: 2% 2%; /* Adjusts the margin for the entire photos section, affecting both text and images */
+    margin: 2% 15%; /* Adjusts the margin for the entire photos section, affecting both text and images */
     text-align: justify;
 }
 
