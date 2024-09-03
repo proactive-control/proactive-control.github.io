@@ -21,18 +21,22 @@ body {
 
 /* Header Section */
 .header {
-    background-color: #333;
-    color: white;
+    background-image: url('background.png'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire header area */
+    background-position: center; /* Centers the image in the header */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white; /* Text color - make sure it's readable against the background */
     padding: 2%;
     text-align: center;
-    width: 100%; /* Ensure the header takes the full width of the page */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    margin: 0; /* Remove any default margin */
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
 }
 
+
 .header-content h1 {
-    margin: 0;
-    font-size: 2.3rem;
+    margin: 10pt 200pt;
+    font-size: 3rem;
 }
 
 .header-content p {
@@ -173,7 +177,7 @@ main {
 
 .photos img {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     border-radius: 10px;
     margin: 2% auto; /* Center the image horizontally */
 }
@@ -184,6 +188,32 @@ main {
     border-radius: 10px;
     margin: 2% auto; /* Centering the image horizontally */
 }
+
+.citation-box {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px 0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+    white-space: pre-wrap; /* Preserve formatting and allow line wrapping */
+    text-align: left; /* Ensure everything is left-aligned */
+    overflow-x: auto; /* Horizontal scroll if necessary */
+}
+
+.citation-box p {
+    margin: 0 0 10px; /* Add space below paragraphs */
+    font-family: Arial, sans-serif; /* Different font for the non-code text */
+    font-size: 1rem;
+    color: #484848;
+}
+
+.citation-box pre {
+    margin: 0;
+    padding-left: 0px; /* Indentation for the code block */
+}
+
+
 
 /* Footer */
 footer {
